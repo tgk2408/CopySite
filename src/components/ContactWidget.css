@@ -1,0 +1,17 @@
+
+:root{
+    --blue1:#2893f7;
+    --blue2:#06d3ff;
+    --blue3:#6cd0df;
+  }
+
+  .contact-widget{
+      padding: 70px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.7;
+      background-image: url(./images/adele.jpg);
+  }

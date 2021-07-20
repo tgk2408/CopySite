@@ -1,0 +1,29 @@
+:root{
+    --blue1:#2893f7;
+    --blue2:#06d3ff;
+    --blue3:#6cd0df;
+  }
+
+  .points-container{
+    margin: 50px;
+    width: auto;
+    height: 500px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue3);
+    color: white;
+    padding: 10x;
+  }
+
+.point{
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.point-icon{
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+}

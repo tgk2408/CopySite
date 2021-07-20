@@ -1,0 +1,69 @@
+:root{
+    --blue1:#2893f7;
+    --blue2:#06d3ff;
+    --blue3:#6cd0df;
+  }
+
+
+.float-container{
+    margin: 20px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.float-card{
+    background-color: whitesmoke;
+    background-image: url(./images/texture1.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.float-card:hover{
+    filter: brightness(95%);
+}
+
+.card-icon{
+    color: var(--blue1);
+    height: 100px;
+    width: auto;
+    padding: 10px;
+}
+
+.card-title{
+    color: var(--blue1);
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.card-content{
+    margin: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.learn-more{
+    height: 40px;
+    background-color: var(--blue1);
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.learn-more:hover{
+    color: white;
+}

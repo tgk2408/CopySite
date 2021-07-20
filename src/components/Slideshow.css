@@ -1,0 +1,15 @@
+
+
+.slideshow-container {
+    margin: 20px;
+    
+  }
+  
+.slideshow{
+  background-image: url(./images/texture1.png);
+}
+
+.d-block.w-100{
+  height: 500px;
+  margin: 20px;
+}
