@@ -1,7 +1,6 @@
 import hello1 from "./images/adele.jpg";
 import hello2 from "./images/adele2.jpg";
 import logo from "./images/techbud_logo.png";
-import Slider from "react-slick";
 import "./Slideshow.css"
 import { Carousel } from "react-bootstrap";
 
